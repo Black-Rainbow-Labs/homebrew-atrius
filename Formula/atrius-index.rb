@@ -9,22 +9,22 @@
 class AtriusIndex < Formula
   desc "Code index for agents: ripgrep's exact results from an index, definitions and an MCP server"
   homepage "https://blackrainbowlabs.com/lab"
-  version "0.1.2"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
-    url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.1.2-universal-apple-darwin.tar.gz"
-    sha256 "98d244b0b37c8209ea31a8dc3a63404c90d02caebb27d2ed93baebfefbbce21d"
+    url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.2.0-universal-apple-darwin.tar.gz"
+    sha256 "2019413ffb8fd3b22966a3105a86139b5fa685241621581d6b12a96e22d42a5e"
   end
 
   on_linux do
     on_intel do
-      url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c552ac2f52ea0c4f5fc0514b19eaaae450a48cc00b771b917a959a63074c3651"
+      url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "49083bb13731be47a7abe2043e0ad65816a44503bb44f2633d6cc9e3e57f3dea"
     end
     on_arm do
-      url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "08e698d4ac425c381d8a0bdea12da900b971e04a3f0a7b345e66b6aa03bf69ca"
+      url "https://blackrainbowlabs.com/downloads/atrius-index/atrius-index-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a18c6196ca71d5024fab213911f5d8eb20b7d81e431393ac41f0b596be47468a"
     end
   end
 
